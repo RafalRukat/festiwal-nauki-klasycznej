@@ -142,20 +142,26 @@ nav a:hover {
     padding: 20px;
 }
 
+.program-item:nth-last-of-type(1) {
+    background-color: goldenrod;
+}
+
 @media (orientation: portrait){
     .program-list {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-
     }
+
     .program-item {
-        background-color: #fff;
+        background-color: goldenrod;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         width: calc(80% - 20px);
         margin-bottom: 40px;
         padding: 10px;
+
     }
+
     .program-item p {
         font-size: 1.2rem;
     }
@@ -276,6 +282,10 @@ dt {
     font-size: 1.2em;
 }
 
+#opis strong {
+    color: goldenrod;
+}
+
 #organizator {
     padding: 80px;
     background-color: #f1f1f1;
@@ -320,7 +330,7 @@ dt {
 }
 
 .registration {
-    background-image: url('https://festiwalnaukiklasycznej.pl/wp-content/uploads/2023/03/4.jpg');
+    background-image: url('https://festiwalnaukiklasycznej.pl/wp-content/uploads/2023/03/books-scaled.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -330,7 +340,7 @@ dt {
 
 .registration__cover {
     padding: 100px 30px;
-    background-color: #0008;
+    background-color: #0009;
 }
 
 .registration__title {
@@ -342,7 +352,11 @@ dt {
 .contact {
     padding: 100px 30px;
     min-height: 100vh;
-    background-color: #040a3c;
+    background-image: url('https://festiwalnaukiklasycznej.pl/wp-content/uploads/2023/03/thinker-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -365,11 +379,11 @@ dt {
     justify-content: flex-end;
 }
 
-.contact__data p {
+.contact__data * {
     margin: 0 2vw 10vh 2vw;
 }
 
-.contact__data p strong {
+.contact strong {
     color: goldenrod;
 }
 
