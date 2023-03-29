@@ -91,7 +91,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.hero-dates {
+.hero-dates-and-place {
     font-size: 1.5em;
 }
 
@@ -250,8 +250,11 @@ dt {
 }
 
 #opis {
-    padding: 100px 100px;
+    padding: 100px;
     text-align: justify;
+    background-color: #050c53;
+    color: white;
+
 }
 
 #opis h2 {
@@ -267,6 +270,10 @@ dt {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 40px;
+}
+
+#opis p, #opis li {
+    font-size: 1.2em;
 }
 
 #organizator {
